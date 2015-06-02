@@ -5,6 +5,7 @@ header.navbar
     li = link_to "Submit", '#'
   ul.auth
     - if user_signed_in?
+    li = link_to "Submit", 'links/new'
       li = link_to 'Edit profile', edit_user_registration_path
       li = link_to 'Logout', destroy_user_session_path
     - else
