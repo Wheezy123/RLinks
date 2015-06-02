@@ -4,5 +4,9 @@ header.navbar
     li = link_to "Home", '#'
     li = link_to "Submit", '#'
   ul.auth
-    li = link_to "Login", '#'
-    li = link_to "Signup", '#'
+    - if user_signed_in?
+      li = link_to 'Edit profile', edit_user_registration_path
+      li = link_to 'Logout', destroy_user_session_path
+    - else
+      li = link_to 'Login', new_user_session_path
+      li = link_to 'Signup', new_user_registration_path
