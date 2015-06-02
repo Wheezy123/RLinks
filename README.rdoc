@@ -1,28 +1,20 @@
-== README
+== RLinks
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the beginnings of a social news sharing and aggregation app.  Popular stories will be voted to the top, and news will be aggregated based on its content
 
-Things you may want to cover:
+Relevant stories will include:
 
-* Ruby version
+* Tech News
 
-* System dependencies
+* Startup News
 
-* Configuration
+* Politics
 
-* Database creation
+* Weird News
 
-* Database initialization
+* Random Chicago Happenings
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Things from the corners of the interwebz
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+project is currently under development
